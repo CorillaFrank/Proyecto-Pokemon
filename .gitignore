@@ -1,0 +1,7 @@
+node_modules/@jridgewell/sourcemap-codec/dist/sourcemap-codec.umd.js
+# Ignorar node_modules
+node_modules/
+
+# Ignorar build o dist
+dist/
+build/
