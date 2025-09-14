@@ -1,4 +1,4 @@
-export interface listPokemon {
+export interface listPokemon { 
   count: number;
   next: string | null;
   previous: string | null;

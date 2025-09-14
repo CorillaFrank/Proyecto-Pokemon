@@ -4,9 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --watch"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CorillaFrank/Proyecto-Pokemon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CorillaFrank/Proyecto-Pokemon/issues"
+  },
+  "homepage": "https://github.com/CorillaFrank/Proyecto-Pokemon#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "tailwindcss": "^4.1.13"
+  }
 }
