@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/style.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Usando TypeScript</title>
+  </head>
+  <body
+    class="max-w-xl mx-auto border border-black min-h-dvh bg-gradient-to-b from-black via-sky-950 to-gray-800 text-white"
+  >
+    <div
+      class="hidden md:block absolute left-100 top-/10 transform -translate-x-9/22"
+    >
+      <img
+        src="../assets/a2.png"
+        alt="Decoración Izquierda"
+        class="w-100 h-auto opacity-35"
+      />
+    </div>
+    <!-- Imagen lateral derecha -->
+    <div
+      class="hidden md:block absolute right-100 top-/10 transform translate-x-9/22"
+    >
+      <img
+        src="../assets/a2.png"
+        alt="Decoración Derecha"
+        class="w-100 h-auto opacity-35"
+      />
+    </div>
+    <header class="flex gap-2 justify-center">
+      <img src="../assets/usmp.svg" alt="Descripción de usmp" />
+    </header>
+    <main class="flex justify-center items-start mt-10">
+      <div class="max-w-5xl w-full rounded-lg shadow-lg p-8">
+        <h1 class="text-center text-4xl font-bold mb-6">
+          Usando TypeScript + petición (Fetch) + PokeApi + Tailwind CSS v4.1
+        </h1>
+
+        <div
+          id="poke-box"
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6"
+        ></div>
+      </div>
+    </main>
+    <footer class="bg-gray-800 text-white py-6 mt-12">
+      <div
+        class="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center"
+      >
+        <span class="text-sm">&copy; 2025 美波-ʞnɐɹℲ</span>
+        <ul class="flex space-x-4 mt-4 sm:mt-0">
+          <li>
+            <a href="https://usmp.edu.pe/" class="hover:underline">@Usmp </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="../public/js/script.js" type="module"></script>
+  </body>
+</html>
